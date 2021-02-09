@@ -1,16 +1,21 @@
  /* #name {font-weight: bold;} */
 .contact{
   background: rgb(131,58,180);
-background: radial-gradient(circle, rgba(131,58,180,1) 0%, rgba(247,29,253,1) 50%, rgba(252,176,69,1) 100%); }
-.portfolio{background: rgb(131,58,180);
-  background: radial-gradient(circle, rgba(131,58,180,1) 0%, rgba(43,29,253,1) 50%, rgba(252,176,69,1) 100%);}
-.About{background: rgb(131,58,180);
+background: radial-gradient(circle, rgba(131,58,180,1) 0%, rgba(247,29,253,1) 50%, rgba(252,176,69,1) 100%);
+ }
+
+.portfolio{
+  background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(29,253,51,1) 70%);
+}
+.About{
+  background: rgb(131,58,180);
   background: radial-gradient(circle, rgba(131,58,180,1) 0%, rgba(29,253,207,1) 70%);
 } 
 .index-about{
-  font-style: oblique;
-  font-weight: bolder;
-  margin-left: 800px;
+  font-family: Papyrus, Herculanum, Party LET, Curlz MT, Harrington, fantasy;
+   font-weight: bolder;
+  margin-left: 600px;
   color: greenyellow;
  font-size: 100px;
 }
@@ -33,9 +38,18 @@ background: radial-gradient(circle, rgba(131,58,180,1) 0%, rgba(247,29,253,1) 50
       height: 400px;}
    .name{
     font-size: 75px;
+    font-family: Papyrus, Herculanum, Party LET, Curlz MT, Harrington, fantasy;
+
    }
    .nav-link-index{
     font-family: Papyrus, Herculanum, Party LET, Curlz MT, Harrington, fantasy;
-    color: greenyellow; 
+    color: p; 
+    font: ;
     
+   }
+   .bolder{
+     font-weight: bolder;
+     font-family: Papyrus, Herculanum, Party LET, Curlz MT, Harrington, fantasy;
+     font-size: 75px;
+
    }
